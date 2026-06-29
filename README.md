@@ -1,45 +1,69 @@
-# Cozy Corner — Warm Redesign
+# Cozy Corner — Rose & Emerald Redesign
 
-A color + styling redesign of the **Cozy Corner** Shopify storefront (a home & garden / DIY decor shop).
-The goal: a 3-color palette grounded in color-psychology research that grabs attention while still
-reading as elegant, warm, and homey.
+A premium, attention-grabbing redesign of the **Cozy Corner** Shopify storefront (a home &
+garden / DIY decor shop), built to read as a high-end, "Fortune 500" brand rather than a
+generic dropshipping store.
 
-The redesign is applied to a **draft theme** ("Cozy Corner — Warm Redesign") duplicated from the live
-theme, so the live store is untouched until the draft is reviewed and published.
+The redesign is applied to a **draft theme** ("Cozy Corner — Warm Redesign",
+`gid://shopify/OnlineStoreTheme/154654212250`) duplicated from the live theme, so the live
+store is untouched until the draft is reviewed and published manually in Shopify admin.
 
-## The palette
+## The palette — Rose & Emerald (luxe)
 
-| Role | Hex | Where it's used | Why |
-|------|-----|-----------------|-----|
-| **Terracotta** (accent / CTA) | `#C2643F` | Buttons, "Add to cart", sale badges | Warm orange-reds are the strongest attention + urgency drivers; CTA color changes in this family have lifted click-through 20–30%+. |
-| **Sage green** (supporting) | `#6E7E5C` / deep `#4F5D45` | Feature sections, sold-out badges | Green signals nature / garden, calm, and trust; green-leaning schemes convert well for general retail. |
-| **Warm cream** (base) | `#FAF5EC` | Page backgrounds | Warm neutrals read as cozy, homey, and elegant — the preferred décor palette. |
-| Espresso (text) | `#3D332A` | Body + heading text | Soft warm dark instead of harsh black, for an elegant feel and strong contrast. |
-| Sand (cards) | `#EFE6D6` | Product / collection cards | Subtle warm separation from the cream background. |
-
-Color drives up to ~90% of snap product judgments and shoppers form a first impression in ~50ms, so a
-cohesive warm-plus-accent scheme is doing real conversion work, not just decoration.
+| Role | Hex | Where it's used |
+|------|-----|-----------------|
+| **Rose** (CTA/accent) | `#C9748C` | Buttons, primary accents |
+| **Soft rose** (card tint) | `#F3DEDC` | Card/section backgrounds |
+| **Deep emerald** | `#1F4A38` | Dark feature sections, footer, sold-out badge |
+| **Mid emerald** | `#3E7560` | Alternating feature sections |
+| **Gold** (sparing accent) | `#C7A062` | Buttons/badges on dark-emerald sections only |
+| **Ivory** (base bg) | `#FBF8F2` | Page background |
+| **Deep charcoal-emerald** (text) | `#23362C` | Body/heading text |
 
 ## Color schemes (theme `config/settings_data.json`)
 
-- **scheme-1** — Cream background, espresso text, terracotta primary button (the default site scheme)
-- **scheme-2** — Sand cards
-- **scheme-3** — Deep sage (sold-out badges, dark feature sections)
-- **scheme-4** — Terracotta (sale badges, high-attention blocks)
-- **scheme-5** — Mid sage (alternating feature sections)
+- **scheme-1** — Ivory background, charcoal-emerald text, rose primary button (default site scheme)
+- **scheme-2** — Soft rose cards
+- **scheme-3** — Deep emerald (sold-out badges, dark feature sections, footer)
+- **scheme-4** — Rose (sale badges, high-attention blocks)
+- **scheme-5** — Mid emerald (alternating feature sections)
 
-## Other styling changes
+## Typography
 
-- Headings set to an elegant serif (**Playfair Display**) over a clean body font (**Assistant**)
-- Heading scale bumped to 110% for presence
-- Softer, rounder buttons / cards / inputs / media (8–12px radius), thinner 1px borders
-- Subtle hover animations enabled
+- Headings: **Cormorant**, Semibold (`cormorant_n6`) — an editorial, high-fashion serif
+- Body: **Jost** (`jost_n4`) — clean geometric sans that pairs cleanly with Cormorant
+- Heading scale bumped to 115% for more presence
+- Subtle button/card shadows (10% opacity) added for depth
+
+## Homepage (`templates/index.json`)
+
+- **Best Sellers** — recolored to the palette and repointed from mismatched placeholder
+  products (lab equipment, novelty ornaments) to genuinely on-brand home-decor items.
+- **Comparison table** — recolored from a hardcoded blue (`#005BD3`/`#334fb4`) to deep/mid
+  emerald, with a rose CTA button.
+- **Testimonials** — recolored section background/text to the palette; the one card that had
+  a hardcoded blue gradient now uses an emerald gradient.
+- **Featured product spotlight** — repointed to an on-brand ceramic decor product, badges
+  recolored from pink/blue to rose/gold, and all leftover Portuguese dropshipping copy
+  rewritten to on-brand English copy.
+- **FAQ** — gradient recolored from blue to emerald.
+- **Hero banner** — *not yet updated*. The user supplied a finished branded hero graphic
+  (headline, subhead, and CTA baked into the image) to replace the current stock photo, but
+  getting it onto Shopify's CDN requires either Shopify's staged-upload flow or the
+  dedicated image-upload tool — both are blocked by access restrictions in this environment.
+  **Next step:** upload the hero image manually via Shopify Admin → Settings → Files, then
+  share the resulting file URL/filename so the `image_banner_6pHN7t` section's `image`
+  setting can be repointed to it (and the heading/text/button overlay blocks removed, since
+  the graphic already contains its own copy).
+
+## Footer (`sections/footer-group.json`)
+
+Recolored from a hardcoded purple (`#624cba`) to deep emerald with a rose newsletter CTA
+button, matching the rest of the site.
 
 ## How to go live
 
 1. Open the draft theme **Cozy Corner — Warm Redesign** in the Shopify admin.
 2. Use **Preview** to review it across home, collection, and product pages.
-3. When happy, click **Publish**.
-
-> Sources informing the palette: color-psychology / ecommerce-conversion research
-> (alidropship, attentioninsight, dragonflyai, productiveshop, coschedule, and others).
+3. Swap in the hero image (see note above) once it's been uploaded.
+4. When happy, click **Publish**.

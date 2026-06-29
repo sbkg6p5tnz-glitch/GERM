@@ -1,0 +1,510 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_6pHN7t": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6AC4bw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover Products You'll Love",
+            "heading_size": "h1"
+          }
+        },
+        "text_jTGBDQ": {
+          "type": "text",
+          "settings": {
+            "text": "High-quality items curated to make your everyday life easier.",
+            "text_style": "body"
+          }
+        },
+        "buttons_aYf6iE": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Browse Collection",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6AC4bw",
+        "text_jTGBDQ",
+        "buttons_aYf6iE"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/home-garden-4.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "17731795098d5ad3ba": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f5663af_if4a3e": {
+          "type": "ai_gen_block_f5663af",
+          "settings": {
+            "heading": "Best Sellers",
+            "subheading": "Shop our most popular products",
+            "product_list": [
+              "cross-border-rose-home-decor-for-girlfriend",
+              "greek-goddess-flower-pot-vase-ceramic-statue-vase",
+              "fabric-lampshade-floor-lamp-creative-mid-century-design"
+            ],
+            "show_vendor": false,
+            "desktop_width_percent": 100,
+            "container_width": 1200,
+            "columns_mobile": "2",
+            "grid_gap": 20,
+            "section_padding_top": 40,
+            "section_padding_bottom": 40,
+            "heading_alignment": "center",
+            "heading_size": 36,
+            "heading_color": "#23362C",
+            "heading_spacing": 40,
+            "subheading_size": 16,
+            "subheading_color": "#3E7560",
+            "subheading_spacing": 8,
+            "product_text_alignment": "left",
+            "card_border_radius": 12,
+            "card_padding": 16,
+            "card_background_color": "#F3DEDC",
+            "product_title_size": 16,
+            "product_title_color": "#23362C",
+            "product_vendor_size": 12,
+            "product_vendor_color": "#3E7560",
+            "product_price_size": 16,
+            "product_price_color": "#23362C",
+            "background_color": "#FBF8F2"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f5663af_if4a3e"
+      ],
+      "settings": {}
+    },
+    "comparison_table_XzeLYc": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_QVB49a": {
+          "type": "row",
+          "settings": {
+            "benefit": "High-quality curated products",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_VdMLAT": {
+          "type": "row",
+          "settings": {
+            "benefit": "Fast & reliable shipping",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_Mt6wem": {
+          "type": "row",
+          "settings": {
+            "benefit": "Secure checkout",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_qdHGC3": {
+          "type": "row",
+          "settings": {
+            "benefit": "Easy returns & refunds",
+            "us": true,
+            "others": false
+          }
+        },
+        "row_rP4DdC": {
+          "type": "row",
+          "settings": {
+            "benefit": "Dedicated customer support",
+            "us": true,
+            "others": false
+          }
+        }
+      },
+      "block_order": [
+        "row_QVB49a",
+        "row_VdMLAT",
+        "row_Mt6wem",
+        "row_qdHGC3",
+        "row_rP4DdC"
+      ],
+      "name": "Comparison table",
+      "settings": {
+        "wave_color_1": "#1F4A38",
+        "wave_color_2": "#3E7560",
+        "comparison_bg_color": "#1F4A38",
+        "comparison_bg_color_end": "#3E7560",
+        "comparison_bg_start": 39,
+        "title": "Best Choice for Quality and Convenience",
+        "heading_size": "h1",
+        "text": "<p>See why thousands of customers choose our store over others.</p>",
+        "heading_color": "#FBF8F2",
+        "text_color": "#FBF8F2",
+        "content_gap": 28,
+        "button_label": "Shop Now",
+        "button_link": "shopify://collections/all",
+        "button_color": "#C9748C",
+        "button_text_color": "#FBF8F2",
+        "button_padding_vertical": 14,
+        "button_padding_horizontal": 22,
+        "button_style_secondary": false,
+        "title_cell_bg": "#1F4A38",
+        "title_cell_color": "#FBF8F2",
+        "layout": "table_second",
+        "style": "classic",
+        "us_label": "Us",
+        "us_label_size": 23,
+        "us_label_color": "#FBF8F2",
+        "us_column_bg_color": "#F3DEDC",
+        "us_column_bg_opacity": 30,
+        "others_label": "Others",
+        "others_label_size": 23,
+        "others_label_color": "#2e2d2d",
+        "checkmark_color": "#FBF8F2",
+        "x_color": "#FBF8F2",
+        "opposite_icon_colors": "original",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials_rPbGqz": {
+      "type": "testimonials",
+      "blocks": {
+        "column_rxz8FX": {
+          "type": "column",
+          "settings": {
+            "title": "Better Than Expected",
+            "text": "<p>I was skeptical at first but the product actually works really well. Shipping was faster than I expected too.</p>",
+            "author": "James K.",
+            "card_gradient_top": "",
+            "card_gradient_bottom": "",
+            "card_title_color": "",
+            "card_text_color": "",
+            "card_author_color": "",
+            "card_stars_color": ""
+          }
+        },
+        "column_zaqgir": {
+          "type": "column",
+          "settings": {
+            "title": "Great Experience",
+            "text": "<p>Super smooth shopping experience and fast delivery. Customer support was helpful and the product exceeded my expectations.</p>",
+            "author": "Michael T.",
+            "card_gradient_top": "#1F4A38",
+            "card_gradient_bottom": "#3E7560",
+            "card_title_color": "#FBF8F2",
+            "card_text_color": "#FBF8F2",
+            "card_author_color": "#FBF8F2",
+            "card_stars_color": "#FBF8F2"
+          }
+        },
+        "column_ThmpM4": {
+          "type": "column",
+          "settings": {
+            "title": "Amazing Quality",
+            "text": "<p>I was honestly surprised by the quality. The product arrived quickly and works exactly as described. I'll definitely be ordering again!</p>",
+            "author": "Emily R.",
+            "card_gradient_top": "",
+            "card_gradient_bottom": "",
+            "card_title_color": "",
+            "card_text_color": "",
+            "card_author_color": "",
+            "card_stars_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rxz8FX",
+        "column_zaqgir",
+        "column_ThmpM4"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "Testimonials",
+        "testimonials_per_row": 3,
+        "gap": 20,
+        "enable_carousel": true,
+        "enable_infinite_ticker": true,
+        "infinite_ticker_speed": 3,
+        "carousel_autoplay": true,
+        "carousel_speed": 7,
+        "show_stars": true,
+        "title_color": "#23362C",
+        "author_color": "#23362C",
+        "text_color": "#23362C",
+        "stars_color": "#23362C",
+        "background_color": "#F3DEDC",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_HfWada": {
+      "type": "featured-product",
+      "blocks": {
+        "rating_badge_x3pmYq": {
+          "type": "rating_badge",
+          "settings": {
+            "badge_bg_color": "#C9748C",
+            "badge_bg_color_end": "#C7A062",
+            "badge_stars_color": "#FBF8F2",
+            "badge_nota_color": "#FBF8F2",
+            "rating_value": "4.8",
+            "customers_count": "127",
+            "customers_label": "customers"
+          }
+        },
+        "title_FdVMEf": {
+          "type": "title",
+          "settings": {
+            "custom_title": "A Centerpiece Worth Admiring",
+            "heading_size": "h2"
+          }
+        },
+        "description_UBCmaU": {
+          "type": "description",
+          "settings": {
+            "description": "<p><strong>NEW</strong>: Hand-finished geometric stoneware, designed to turn any console table or mantel into a focal point.</p>",
+            "text_size": "medium",
+            "text_color": "#23362C"
+          }
+        },
+        "price_LJHMBB": {
+          "type": "price",
+          "settings": {
+            "price_bold": true,
+            "show_compare_at": false,
+            "show_discount": false,
+            "badge_gradient_start": "#C9748C",
+            "badge_gradient_end": "#C7A062",
+            "badge_text_color": "#FBF8F2",
+            "discount_badge_label": "-%",
+            "price_color": "#23362C",
+            "price_size": "medium"
+          }
+        },
+        "compare_at_price_mQYYdB": {
+          "type": "compare_at_price",
+          "settings": {
+            "compare_at_price_text": "",
+            "compare_at_color": "#23362C",
+            "compare_at_size": "medium"
+          }
+        },
+        "product_badge_TnQeLq": {
+          "type": "product_badge",
+          "settings": {
+            "badge_text": "Handcrafted",
+            "badge_style": "gradient",
+            "badge_color": "#e8e8e8",
+            "badge_gradient_start": "#C9748C",
+            "badge_gradient_end": "#C7A062",
+            "badge_text_color": "#FBF8F2"
+          }
+        },
+        "product_badge_LMXAWH": {
+          "type": "product_badge",
+          "settings": {
+            "badge_text": "Lifetime Quality",
+            "badge_style": "gradient",
+            "badge_color": "#e8e8e8",
+            "badge_gradient_start": "#C9748C",
+            "badge_gradient_end": "#C7A062",
+            "badge_text_color": "#FBF8F2"
+          }
+        },
+        "variant_picker_8jq9am": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_options_TGTAVK": {
+          "type": "quantity_options",
+          "settings": {
+            "option_1_quantity": 1,
+            "option_1_label": "",
+            "option_1_badge": "",
+            "option_1_benefit": "",
+            "option_1_caption": "You save",
+            "option_1_percentage_off": 0,
+            "option_1_fixed_amount_off": 0,
+            "option_1_compare_price_based_on": "compare_price",
+            "option_2_quantity": 2,
+            "option_2_label": "",
+            "option_2_badge": "",
+            "option_2_benefit": "",
+            "option_2_caption": "You save [amount_saved]",
+            "option_2_percentage_off": 10,
+            "option_2_fixed_amount_off": 0,
+            "option_2_compare_price_based_on": "compare_price",
+            "option_3_quantity": 3,
+            "option_3_label": "",
+            "option_3_badge": "",
+            "option_3_benefit": "",
+            "option_3_caption": "You save [amount_saved]",
+            "option_3_percentage_off": 0,
+            "option_3_fixed_amount_off": 10,
+            "option_3_compare_price_based_on": "compare_price"
+          }
+        },
+        "quantity_selector_Xztq7C": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_XT3npe": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "authority_icons_HUhA38": {
+          "type": "authority_icons",
+          "settings": {
+            "authority_text": "Loved by 1,200+ home decorators",
+            "authority_text_color": "#23362C"
+          }
+        },
+        "share_fHXWHm": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "rating_badge_x3pmYq",
+        "title_FdVMEf",
+        "description_UBCmaU",
+        "price_LJHMBB",
+        "compare_at_price_mQYYdB",
+        "product_badge_TnQeLq",
+        "product_badge_LMXAWH",
+        "variant_picker_8jq9am",
+        "quantity_options_TGTAVK",
+        "quantity_selector_Xztq7C",
+        "buy_buttons_XT3npe",
+        "authority_icons_HUhA38",
+        "share_fHXWHm"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "geometric-stone-pattern-ceramic-flower-vase-decor",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_gjHAUz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_ahQ3pD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your shipping time?",
+            "icon": "check_mark",
+            "row_content": "<p>We offer fast and reliable shipping. Most orders are delivered within 7-15 business days depending on your location.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_V8MRhg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "check_mark",
+            "row_content": "<p>We offer a 30-day money-back guarantee. If you're not satisfied with your purchase, contact us for a full refund.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4ipk8Q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I track my order?",
+            "icon": "check_mark",
+            "row_content": "<p>Once your order ships, you'll receive a tracking number via email. You can use it to track your package in real-time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cmtKBE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I contact support?",
+            "icon": "check_mark",
+            "row_content": "<p>You can reach our support team via email or through our contact page. We typically respond within 24 hours.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_ahQ3pD",
+        "collapsible_row_V8MRhg",
+        "collapsible_row_4ipk8Q",
+        "collapsible_row_cmtKBE"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "description": "Have questions? We've got answers.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "faq_gradient_color_start": "#1F4A38",
+        "faq_gradient_color_end": "#3E7560",
+        "faq_alt_bg_color": "#F3DEDC",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_6pHN7t",
+    "17731795098d5ad3ba",
+    "comparison_table_XzeLYc",
+    "testimonials_rPbGqz",
+    "featured_product_HfWada",
+    "collapsible_content_gjHAUz"
+  ]
+}
