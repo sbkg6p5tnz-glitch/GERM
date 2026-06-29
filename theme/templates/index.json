@@ -11,47 +11,17 @@
   "sections": {
     "image_banner_6pHN7t": {
       "type": "image-banner",
-      "blocks": {
-        "heading_6AC4bw": {
-          "type": "heading",
-          "settings": {
-            "heading": "Discover Products You'll Love",
-            "heading_size": "h1"
-          }
-        },
-        "text_jTGBDQ": {
-          "type": "text",
-          "settings": {
-            "text": "High-quality items curated to make your everyday life easier.",
-            "text_style": "body"
-          }
-        },
-        "buttons_aYf6iE": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Browse Collection",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_6AC4bw",
-        "text_jTGBDQ",
-        "buttons_aYf6iE"
-      ],
+      "blocks": {},
+      "block_order": [],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/home-garden-4.png",
+        "image": "shopify://shop_images/Cozy_Corner_STORE_64d61b8c-64f3-4f8c-8aaa-900d21f1156b.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "color_scheme": "",
         "stack_images_on_mobile": true,
         "mobile_content_alignment": "center",
