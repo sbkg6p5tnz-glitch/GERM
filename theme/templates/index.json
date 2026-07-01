@@ -80,21 +80,21 @@
             "section_padding_bottom": 40,
             "heading_alignment": "center",
             "heading_size": 36,
-            "heading_color": "#23362C",
+            "heading_color": "#1A1A1A",
             "heading_spacing": 40,
             "subheading_size": 16,
-            "subheading_color": "#3E7560",
+            "subheading_color": "#2B2A28",
             "subheading_spacing": 8,
             "product_text_alignment": "left",
             "card_border_radius": 12,
             "card_padding": 16,
-            "card_background_color": "#F3DEDC",
+            "card_background_color": "#F2EDE6",
             "product_title_size": 16,
-            "product_title_color": "#23362C",
+            "product_title_color": "#1A1A1A",
             "product_vendor_size": 12,
-            "product_vendor_color": "#3E7560",
+            "product_vendor_color": "#2B2A28",
             "product_price_size": 16,
-            "product_price_color": "#23362C",
+            "product_price_color": "#1A1A1A",
             "background_color": "#FBF8F2"
           },
           "blocks": {}
@@ -158,10 +158,10 @@
       ],
       "name": "Comparison table",
       "settings": {
-        "wave_color_1": "#1F4A38",
-        "wave_color_2": "#3E7560",
-        "comparison_bg_color": "#1F4A38",
-        "comparison_bg_color_end": "#3E7560",
+        "wave_color_1": "#161616",
+        "wave_color_2": "#2B2A28",
+        "comparison_bg_color": "#161616",
+        "comparison_bg_color_end": "#2B2A28",
         "comparison_bg_start": 39,
         "title": "Best Choice for Quality and Convenience",
         "heading_size": "h1",
@@ -171,19 +171,19 @@
         "content_gap": 28,
         "button_label": "Shop Now",
         "button_link": "shopify://collections/all",
-        "button_color": "#C9748C",
+        "button_color": "#E5471D",
         "button_text_color": "#FBF8F2",
         "button_padding_vertical": 14,
         "button_padding_horizontal": 22,
         "button_style_secondary": false,
-        "title_cell_bg": "#1F4A38",
+        "title_cell_bg": "#161616",
         "title_cell_color": "#FBF8F2",
         "layout": "table_second",
         "style": "classic",
         "us_label": "Us",
         "us_label_size": 23,
         "us_label_color": "#FBF8F2",
-        "us_column_bg_color": "#F3DEDC",
+        "us_column_bg_color": "#F2EDE6",
         "us_column_bg_opacity": 30,
         "others_label": "Others",
         "others_label_size": 23,
@@ -218,8 +218,8 @@
             "title": "Great Experience",
             "text": "<p>Super smooth shopping experience and fast delivery. Customer support was helpful and the product exceeded my expectations.</p>",
             "author": "Michael T.",
-            "card_gradient_top": "#1F4A38",
-            "card_gradient_bottom": "#3E7560",
+            "card_gradient_top": "#161616",
+            "card_gradient_bottom": "#2B2A28",
             "card_title_color": "#FBF8F2",
             "card_text_color": "#FBF8F2",
             "card_author_color": "#FBF8F2",
@@ -257,11 +257,11 @@
         "carousel_autoplay": true,
         "carousel_speed": 7,
         "show_stars": true,
-        "title_color": "#23362C",
-        "author_color": "#23362C",
-        "text_color": "#23362C",
-        "stars_color": "#23362C",
-        "background_color": "#F3DEDC",
+        "title_color": "#1A1A1A",
+        "author_color": "#1A1A1A",
+        "text_color": "#1A1A1A",
+        "stars_color": "#1A1A1A",
+        "background_color": "#F2EDE6",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -272,8 +272,8 @@
         "rating_badge_x3pmYq": {
           "type": "rating_badge",
           "settings": {
-            "badge_bg_color": "#C9748C",
-            "badge_bg_color_end": "#C7A062",
+            "badge_bg_color": "#E5471D",
+            "badge_bg_color_end": "#E5471D",
             "badge_stars_color": "#FBF8F2",
             "badge_nota_color": "#FBF8F2",
             "rating_value": "4.8",
@@ -293,7 +293,7 @@
           "settings": {
             "description": "<p><strong>NEW</strong>: Hand-finished geometric stoneware, designed to turn any console table or mantel into a focal point.</p>",
             "text_size": "medium",
-            "text_color": "#23362C"
+            "text_color": "#1A1A1A"
           }
         },
         "price_LJHMBB": {
@@ -302,11 +302,11 @@
             "price_bold": true,
             "show_compare_at": false,
             "show_discount": false,
-            "badge_gradient_start": "#C9748C",
-            "badge_gradient_end": "#C7A062",
+            "badge_gradient_start": "#E5471D",
+            "badge_gradient_end": "#E5471D",
             "badge_text_color": "#FBF8F2",
             "discount_badge_label": "-%",
-            "price_color": "#23362C",
+            "price_color": "#1A1A1A",
             "price_size": "medium"
           }
         },
@@ -314,7 +314,7 @@
           "type": "compare_at_price",
           "settings": {
             "compare_at_price_text": "",
-            "compare_at_color": "#23362C",
+            "compare_at_color": "#1A1A1A",
             "compare_at_size": "medium"
           }
         },
@@ -324,8 +324,8 @@
             "badge_text": "Handcrafted",
             "badge_style": "gradient",
             "badge_color": "#e8e8e8",
-            "badge_gradient_start": "#C9748C",
-            "badge_gradient_end": "#C7A062",
+            "badge_gradient_start": "#E5471D",
+            "badge_gradient_end": "#E5471D",
             "badge_text_color": "#FBF8F2"
           }
         },
@@ -335,8 +335,8 @@
             "badge_text": "Lifetime Quality",
             "badge_style": "gradient",
             "badge_color": "#e8e8e8",
-            "badge_gradient_start": "#C9748C",
-            "badge_gradient_end": "#C7A062",
+            "badge_gradient_start": "#E5471D",
+            "badge_gradient_end": "#E5471D",
             "badge_text_color": "#FBF8F2"
           }
         },
@@ -391,7 +391,7 @@
           "type": "authority_icons",
           "settings": {
             "authority_text": "Loved by 1,200+ home decorators",
-            "authority_text_color": "#23362C"
+            "authority_text_color": "#1A1A1A"
           }
         },
         "share_fHXWHm": {
@@ -489,9 +489,9 @@
         "container_color_scheme": "",
         "color_scheme": "",
         "open_first_collapsible_row": false,
-        "faq_gradient_color_start": "#1F4A38",
-        "faq_gradient_color_end": "#3E7560",
-        "faq_alt_bg_color": "#F3DEDC",
+        "faq_gradient_color_start": "#161616",
+        "faq_gradient_color_end": "#2B2A28",
+        "faq_alt_bg_color": "#F2EDE6",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
